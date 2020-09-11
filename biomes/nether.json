@@ -1,0 +1,23 @@
+{
+    "name": "Nether Wastes",
+    "derivative": "NETHER_WASTES",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "netherrack"
+                }
+            ],
+            "style": {
+                "style": "FLAT"
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "flat",
+            "min": 3,
+            "max": 3
+        }
+    ]
+}

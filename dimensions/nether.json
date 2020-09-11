@@ -1,0 +1,26 @@
+{
+    "postProcessing": false,
+    "decorate": false,
+    "environment": "NETHER",
+    "regions": ["nether"],
+    "caves": false,
+    "fluidPalette": {
+        "palette": [
+            {
+                "block": "lava"
+            }
+        ]
+    },
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "netherrack"
+            }
+        ]
+    },
+    "name": "Nether",
+    "fluidHeight": 0,
+    "carving": false,
+    "placeObjects": false,
+    "version": 1
+}
