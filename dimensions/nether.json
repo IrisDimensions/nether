@@ -19,7 +19,7 @@
         ]
     },
     "name": "Nether",
-    "fluidHeight": 0,
+    "fluidHeight": 31,
     "carving": false,
     "placeObjects": false,
     "version": 1

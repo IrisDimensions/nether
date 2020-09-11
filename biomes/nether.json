@@ -15,9 +15,9 @@
     ],
     "generators": [
         {
-            "generator": "flat",
-            "min": 3,
-            "max": 3
+            "generator": "hell",
+            "min": 141,
+            "max": 186
         }
     ]
 }
