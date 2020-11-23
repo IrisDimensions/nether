@@ -1,4 +1,9 @@
-# Nether Generation, made possible by Iris, the dimension engine.
+# Nether Generation
+### Braught to you by Iris, the dimension engine.
 
-Git tutorial; <link soon>
 
+### Contributors:
+- Psycho
+- Simon
+- RoXaS
+- Coco
