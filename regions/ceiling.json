@@ -1,0 +1,12 @@
+{
+    "name": "Nether",
+    "landBiomes": [
+        "ceiling"
+    ],
+    "seaBiomes": [
+        "ceiling"
+    ],
+    "shoreBiomes": [
+        "ceiling"
+    ]
+}
