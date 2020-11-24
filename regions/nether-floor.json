@@ -1,0 +1,12 @@
+{
+    "name": "Nether Floor",
+    "landBiomes": [
+        "nether-floor"
+    ],
+    "seaBiomes": [
+        "nether-ocean"
+    ],
+    "shoreBiomes": [
+        "nether-floor"
+    ]
+}
