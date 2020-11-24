@@ -1,0 +1,23 @@
+{
+    "interpolator": {
+        "function": "BILINEAR_STARCAST_6"
+    },
+    "seed": 1335,
+    "composite": [
+        {
+            "style": {
+                "style": "FRACTAL_WATER",
+                "zoom": 3.5
+            },
+            "seed": 3
+        }
+    ],
+    "cliffHeightMax": 55,
+     "cliffHeightMin": 5,
+    "cliffHeightGenerator": {
+        "style": {
+                "style": "IRIS_DOUBLE"
+            },
+            "seed": 5
+    }
+}
