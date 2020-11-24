@@ -1,0 +1,27 @@
+{
+    "environment": "NETHER",
+    "ravines": false,
+    "postProcessingWalls": true,
+    "postProcessing": true,
+    "regions": [
+        "nether-ceiling"
+    ],
+    "fluidPalette": {
+        "palette": [
+            {
+                "block": "lava"
+            }
+        ]
+    },
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "netherrack"
+            }
+        ]
+    },
+    "bedrock": true,
+    "fluidHeight": 15,
+    "name": "Ceiling",
+    "version": 1
+}

@@ -1,0 +1,25 @@
+{
+    "environment": "NETHER",
+    "ravines": false,
+    "regions": [
+        "nether-floor"
+    ],
+    "fluidPalette": {
+        "palette": [
+            {
+                "block": "lava"
+            }
+        ]
+    },
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "netherrack"
+            }
+        ]
+    },
+    "bedrock": true,
+    "fluidHeight": 12,
+    "name": "Floor",
+    "version": 1
+}

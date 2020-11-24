@@ -1,28 +1,22 @@
 {
-    "postProcessing": false,
-    "decorate": false,
-    "environment": "NETHER",
-    "ravineRarity": 1,
     "ravines": false,
-    "ravineRibRarity": 1,
-    "regions": ["nether"],
-    "caves": false,
-    "sky": {
-        "name": "Ceiling",
-        "version": 1,
-        "ravineRarity": 4,
-        "ravines": false,
-        "caves": false,
-        "carving": false,
-        "placeObjects": false,
-        "decorate": false,
-        "fluidHeight": 0,
-        "environment": "NETHER",
-        "ravineRibRarity": 1,
-        "regions": [
-            "cx"
-        ]
-    },
+    "dimensionalComposite": [
+        {
+            "dimension": "floor",
+            "primary": true,
+            "weight": 1
+        },
+        {
+            "dimension": "center",
+            "weight": 2
+        },
+        {
+            "dimension": "ceiling",
+            "inverted": true,
+            "weight": 1
+        }
+    ],
+    "environment": "NETHER",
     "fluidPalette": {
         "palette": [
             {
@@ -38,8 +32,5 @@
         ]
     },
     "name": "Nether",
-    "fluidHeight": 31,
-    "carving": false,
-    "placeObjects": false,
     "version": 1
 }
