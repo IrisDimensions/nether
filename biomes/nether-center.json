@@ -1,0 +1,23 @@
+{
+    "name": "Nether Center",
+    "derivative": "NETHER_WASTES",
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "netherrack"
+                }
+            ],
+            "style": {
+                "style": "FLAT"
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "hell",
+            "min": 70,
+            "max": 100
+        }
+    ]
+}

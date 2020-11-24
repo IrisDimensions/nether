@@ -1,0 +1,43 @@
+{
+    "name": "Nether Ceiling",
+    "derivative": "NETHER_WASTES",
+    "layers": [
+        {
+            "slopeCondition": {
+                "minimumSlope": 3.5
+            },
+            "palette": [
+            {
+                "block": "basalt"
+            },
+            {
+                "block": "netherrack"
+            }
+        ]
+        },
+        {
+            "palette": [
+                {
+                    "block": "netherrack"
+                }
+            ],
+            "style": {
+                "style": "FLAT"
+            }
+        }
+    ],
+    "wall": {
+        "palette": [
+            {
+                "block": "blackstone"
+            }
+        ]
+    },
+    "generators": [
+        {
+            "generator": "hell-cliffs",
+            "min": 31,
+            "max": 60
+        }
+    ]
+}

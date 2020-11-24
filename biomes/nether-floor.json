@@ -1,5 +1,5 @@
 {
-    "name": "Nether Ceilings",
+    "name": "Nether Floor",
     "derivative": "NETHER_WASTES",
     "layers": [
         {
@@ -16,8 +16,8 @@
     "generators": [
         {
             "generator": "hell",
-            "min": 26,
-            "max": 159
+            "min": 3,
+            "max": 35
         }
     ]
 }
