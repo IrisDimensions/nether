@@ -1,12 +1,14 @@
 {
-    "name": "Nether Center",
+    "name": "Nether Shore",
     "derivative": "NETHER_WASTES",
     "vanillaDerivative": "NETHER_WASTES",
     "layers": [
         {
+            "minHeight": 5,
+            "maxHeight": 5,
             "palette": [
                 {
-                    "block": "netherrack"
+                    "block": "magma_block"
                 }
             ],
             "style": {
@@ -17,8 +19,8 @@
     "generators": [
         {
             "generator": "hell",
-            "min": 70,
-            "max": 100
+            "min": -1,
+            "max": 1
         }
     ]
 }

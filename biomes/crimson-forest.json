@@ -1,0 +1,27 @@
+{
+    "name": "Crimson Forest",
+    "derivative": "CRIMSON_FOREST",
+    "vanillaDerivative": "CRIMSON_FOREST",
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "crimson_nylium"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "hell",
+            "min": 70,
+            "max": 100
+        }
+    ]
+}

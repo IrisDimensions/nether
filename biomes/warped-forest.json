@@ -1,0 +1,27 @@
+{
+    "name": "Warped Forest",
+    "derivative": "WARPED_FOREST",
+    "vanillaDerivative": "WARPED_FOREST",
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 4
+            },
+            "palette": [
+                {
+                    "block": "warped_nylium"
+                }
+            ]
+        }
+    ],
+    "generators": [
+        {
+            "generator": "hell",
+            "min": 70,
+            "max": 100
+        }
+    ]
+}

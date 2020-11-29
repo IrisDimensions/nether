@@ -1,12 +1,14 @@
 {
     "name": "Nether Floor",
     "landBiomes": [
-        "nether-floor"
+        "lava-pools",
+        "nether-floor",
+        "stepped-cliffs"
     ],
     "seaBiomes": [
         "nether-ocean"
     ],
     "shoreBiomes": [
-        "nether-floor"
+        "nether-shore"
     ]
 }

@@ -1,0 +1,24 @@
+{
+    "interpolator": {
+        "function": "NONE",
+        "horizontalScale": 1
+    },
+    "seed": 1,
+    "composite": [
+        {
+            "seed": 2,
+            "style": {
+                "style": "GLOB",
+                "zoom": 0.7,
+                "fracture": {
+                    "style": "SIMPLEX",
+                    "zoom": 0.2,
+                    "multiplier": 10
+                }
+            },
+            "negative": true
+        }
+    ],
+    "cliffHeightMin": 30,
+    "cliffHeightMax": 30
+}

@@ -1,7 +1,9 @@
 {
     "name": "Nether Center",
     "landBiomes": [
-        "nether-center"
+        "nether-center",
+        "warped-forest",
+        "crimson-forest"
     ],
     "seaBiomes": [
         "nether-center"

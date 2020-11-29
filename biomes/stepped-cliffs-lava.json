@@ -1,0 +1,48 @@
+{
+    "name": "Stepped Cliffs Lava",
+    "derivative": "NETHER_WASTES",
+    "vanillaDerivative": "NETHER_WASTES",
+    "generators": [
+        {
+            "generator": "cracked-cliffs",
+            "min": -1,
+            "max": 30
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "lava",
+                    "data": {
+                        "level": 0
+                    }
+                }
+            ]
+        },
+        {
+            "minHeight": 1,
+            "maxHeight": 1,
+            "palette": [
+                {
+                    "block": "lava",
+                    "data": {
+                        "level": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "wall": {
+        "palette": [
+            {
+                "block": "lava",
+                "data": {
+                    "level": 1
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Lava Pools",
+    "derivative": "NETHER_WASTES",
+    "vanillaDerivative": "NETHER_WASTES",
+    "generators": [
+        {
+            "generator": "pools",
+            "min": -20,
+            "max": 5
+        }
+    ],
+    "layers": [
+        {
+            "minHeight": 10,
+            "maxHeight": 10,
+            "slopeCondition": {
+                "minimumSlope": 0,
+                "maximumSlope": 0.5
+            },
+            "palette": [
+                {
+                    "block": "blackstone"
+                }
+            ]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 10,
+            "slopeCondition": {
+                "minimumSlope": 0.5,
+                "maximumSlope": 0.8
+            },
+            "palette": [
+                {
+                    "weight": 1,
+                    "block": "netherrack"
+                },
+                {
+                    "weight": 2,
+                    "block": "blackstone"
+                }
+            ]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 10,
+            "slopeCondition": {
+                "minimumSlope": 0.8,
+                "maximumSlope": 1.0
+            },
+            "palette": [
+                {
+                    "weight": 2,
+                    "block": "netherrack"
+                },
+                {
+                    "weight": 1,
+                    "block": "blackstone"
+                }
+            ]
+        }
+    ]
+}

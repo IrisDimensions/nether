@@ -1,6 +1,7 @@
 {
     "name": "Nether Floor",
     "derivative": "NETHER_WASTES",
+    "vanillaDerivative": "NETHER_WASTES",
     "layers": [
         {
             "palette": [

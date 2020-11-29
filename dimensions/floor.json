@@ -1,6 +1,10 @@
 {
+    "name": "Floor",
+    "version": 1,
     "environment": "NETHER",
+    "fluidHeight": 12,
     "ravines": false,
+    "landChance": 1,
     "regions": [
         "nether-floor"
     ],
@@ -18,8 +22,5 @@
             }
         ]
     },
-    "bedrock": true,
-    "fluidHeight": 12,
-    "name": "Floor",
-    "version": 1
+    "bedrock": true
 }
